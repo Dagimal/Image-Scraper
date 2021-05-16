@@ -11,7 +11,7 @@ from tqdm import tqdm
 imgs_file = 'image_keyword.txt'
 imgs = open(imgs_file, 'r').readlines()
 number_of_lines = len(imgs)
-print(number_of_lines)
+
 print('FILE '+imgs_file+' ADA '+str(number_of_lines)+' BARIS')
 print('INDEX AWAL NYA ADALAH 0')
 print('=========================\n')
@@ -20,7 +20,7 @@ fileName = input('Nama File Output : ')
 awal = int(input('Index Awal : '))
 akhir = int(input('Index Akhir : '))
 
-pbar = tqdm(total = int(akhir))
+pbar = tqdm(total = int(akhir-awal))
 while awal <= akhir:
 	try:
 		f = open(fileName+'.txt', 'a')
