@@ -29,4 +29,4 @@ while awal <= akhir:
 		pbar.update(1)
 	except Exception as e:
 		print(e)
-		#print('https://1.bp.blogspot.com/-Q9ZaBpyBN5k/YI6JfF39ylI/AAAAAAAABj0/AOU6aGdsfAMkmecCKfvrnE1VIv7K11fMgCLcBGAsYHQ/s320/allrecipes.png', file=f)
+		print('https://1.bp.blogspot.com/-Q9ZaBpyBN5k/YI6JfF39ylI/AAAAAAAABj0/AOU6aGdsfAMkmecCKfvrnE1VIv7K11fMgCLcBGAsYHQ/s320/allrecipes.png', file=f)
